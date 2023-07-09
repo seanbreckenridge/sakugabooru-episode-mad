@@ -1,6 +1,6 @@
 # sakugabooru-episode-mad
 
-Downloads all sakugabooru posts for a particular tag, and optionally lets you combine them into Source(episode)-based videos using ffmpeg
+Downloads all [sakugabooru](https://www.sakugabooru.com/) posts for a particular tag, and optionally lets you combine them into Source(episode)-based videos using ffmpeg
 
 ## Installation
 
