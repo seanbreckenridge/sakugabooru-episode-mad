@@ -45,7 +45,7 @@ class Item:
             ]
             if not media:
                 click.echo(
-                    f"Error: could not find file assosiated with {file}", err=True
+                    f"Error: could not find file associated with {file}", err=True
                 )
                 continue
             items.append(Item(file, media[0]))
