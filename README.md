@@ -30,7 +30,7 @@ Options:
 
 `sakugabooru_episode_mad download <tag name>` to download all posts with that tag
 
-Once thats done, you can `merge` them into a video using the `Source` metadata from each post. Typically, that is an episode, but if its from a movie/OP/ED, it'll just be marked as `Episode 0`
+Once that's done, you can `merge` them into a video using the `Source` metadata from each post. Typically, that is an episode, but if its from a movie/OP/ED, it'll just be marked as `Episode 0`
 
 ```
 Usage: python -m sakugabooru_episode_mad process [OPTIONS] FOLDER
