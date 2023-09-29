@@ -20,7 +20,7 @@ def request_json(url: str) -> Any:
     res = requests.get(url)
     if res.status_code == 421:
         time.sleep(30)
-        raise requests.exceptions.HTTPError("421")
+        res.raise_for_status()
     res.raise_for_status()
     return res.json()
 
