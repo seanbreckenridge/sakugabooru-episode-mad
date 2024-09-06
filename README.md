@@ -51,3 +51,16 @@ There are some `--output-type`s to just view the data from the JSON files, other
 ```
 sakugabooru_episode_mad process --output-type merge_videos --group-by source <folder>
 ```
+
+## Examples
+
+- `sakugabooru_episode_mad download flanders_no_inu -S 25`
+- `sakugabooru_episode_mad download 'shoujo_kakumei_utena' --only-animated --download`
+- `sakugabooru_episode_mad download the_super_dimension_fortress_macross`
+
+Downloading and `ffmpeg`ing into a single file:
+
+```bash
+sakugabooru_episode_mad download one_piece --only-animated --skip-score-under 100
+sakugabooru_episode_mad process one_piece -o merge_videos -g source
+```
